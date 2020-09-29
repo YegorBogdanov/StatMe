@@ -27,5 +27,7 @@
 ### Над приложением работали:
 
 -[Иван Каштанов](https://github.com/kashtn);
+
 -[Денис Эпштейн](https://github.com/DenisEps);
+
 -[Егор Богданов](https://github.com/YegorBogdanov).
