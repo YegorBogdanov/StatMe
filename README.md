@@ -24,10 +24,10 @@
 
 Ссылка на приложение: http://statyou.herokuapp.com/
 
-Состав команды:
+### Над приложением работали:
 
--[Иван Каштанов](https://github.com/kashtn)
+-[Иван Каштанов](https://github.com/kashtn);
 
--[Денис Эпштейн](https://github.com/DenisEps)
+-[Денис Эпштейн](https://github.com/DenisEps);
 
--[Егор Богданов](https://github.com/YegorBogdanov)
+-[Егор Богданов](https://github.com/YegorBogdanov).
