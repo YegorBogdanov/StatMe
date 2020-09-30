@@ -2,9 +2,7 @@ const fetch = require('node-fetch')
 
 const getPostsIDs = async (publicName, token, count) => {
   const response = await fetch(`https://api.vk.com/method/wall.get?&${publicName}&access_token=${token}&v=5.122&count=${count}`);
-  console.log(token);
   const resp = await response.json()
-  // console.log(resp);
   const posts = resp.response.items;
   let postsIDs = [];
   for (let item of posts) {
