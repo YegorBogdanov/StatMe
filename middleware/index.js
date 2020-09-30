@@ -32,7 +32,6 @@ module.exports = (app) => {
 
   app.use(session({
     store: new FileStore(),
-    // key: "user_sid",
     secret: "anything",
     resave: false,
     saveUninitialized: false,
@@ -62,7 +61,6 @@ module.exports = (app) => {
   app.get('/auth/vkontakte/callback',
     passport.authenticate('vkontakte', {
       failureRedirect: '/login'
-      // session: false
     }),
     (req, res) => {
       res.redirect('/filtres')
