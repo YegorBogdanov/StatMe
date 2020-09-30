@@ -2,7 +2,6 @@ module.exports = (app) => {
   const indexRouter = require('../router/index');
   const path = require('path');
   const express = require('express')
-  // sessions and cookies
   const session = require('express-session');
   const FileStore = require('session-file-store')(session);
   const logger = require('morgan');
