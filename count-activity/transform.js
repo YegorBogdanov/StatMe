@@ -34,21 +34,4 @@ function convertTransform(activity) {
   return done.splice(0, 10);
 }
 
-
-
-
-// function convertTransform(activity) {
-//   const merged = mergedResults([activity.likes, activity.comments])
-//   const array = Object.entries(merged)
-
-//   let sorted = array.sort((a, b) => {
-//     return b[1] - a[1];
-//   }).slice(0, 10);
-
-//   sorted = sorted.map(el => {
-//     return { id: el[0], count: el[1] }
-//   })
-//   return sorted;
-// }
-
 module.exports = { convertTransform };
