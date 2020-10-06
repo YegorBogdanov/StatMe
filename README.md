@@ -19,7 +19,7 @@ Before using app you should authentificate through vk.com inside our app.
 ### Начало работы (start):
 Далее необходимо вставить в поле ввода "Group/Public link"
 адрес интересующей группы, выбрать количество постов, которое надо проанализировать и тип записей, по которым необходимо произвести поиск (лайк, комментарий, репост).<br/>
-Input the link  of a groupe you want to analize choose types of note to analize with (like, repost, comment)
+Input the link  of a groupe you want to analize, type how many posts you want to analize and choose types of entries to analize (likes, reposts, comments)
 
 В самом верху списка располагается наиболее активный участник группы, нажав на его ID можно перейти на его страницу.<br/>
 In the top of the list you can find the most active community user.
